@@ -39,13 +39,23 @@ Visit:
 
 Use:
 
-Username: admin
-Password: batman123
+Username: admin,
+Password: batman123,
 CAPTCHA: 8
 
 📦 Requirements:
 
-Python 3.9+
-Flask
-Flask-Limiter
+Python 3.9+,
+Flask,
+Flask-Limiter,
 Flask-Session
+
+🔐 Bonus: I created a custom Python brute-force script to attack the app and observe vulnerabilities before adding defenses. This gave me insight into:
+
+Login behavior under attack
+
+How real-world bots operate
+
+What defenses actually stop them
+
+The script is included as brute_force.py inside the repo for learning purposes only.
